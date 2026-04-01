@@ -16,7 +16,7 @@ const projects: Project[] = [
     id: 'mesker',
     name: 'Mesker Digital Builder',
     description: 'Full-stack door and frame configurator with live pricing, SVG elevation drawings, and quote management for Mesker hollow metal products.',
-    url: 'http://mesker-builder-app-718307299000.s3-website.us-east-2.amazonaws.com',
+    url: 'https://mbo.ryandgoodman.com',
     github: 'https://github.com/Rgoodman2592/mesker-builder',
     tech: ['React', 'TypeScript', 'Tailwind', 'Zustand', 'AWS S3'],
     icon: '🚪',
@@ -41,6 +41,16 @@ const projects: Project[] = [
     tech: ['Python', 'Playwright', 'OpenAI', 'Service Fusion API'],
     icon: '🤖',
     color: 'from-blue-500 to-indigo-600',
+  },
+  {
+    id: 'field',
+    name: 'DHS Field App',
+    description: 'Mobile-first PWA for field survey and estimate generation. Photo-required issue capture, NFPA 80 fire code compliance, multi-vendor pricing, AI classification, and Service Fusion integration.',
+    url: 'https://d19exoxxe6gwep.cloudfront.net',
+    github: 'https://github.com/Rgoodman2592/dhs-field-app',
+    tech: ['React', 'TypeScript', 'PWA', 'AWS S3', 'Claude AI', 'IndexedDB'],
+    icon: '📋',
+    color: 'from-violet-500 to-purple-700',
   },
   {
     id: 'takeoff',
@@ -186,7 +196,7 @@ export default function App() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             {[
-              { label: 'Projects', value: '4+' },
+              { label: 'Projects', value: '5+' },
               { label: 'Technologies', value: '15+' },
               { label: 'APIs Integrated', value: '10+' },
               { label: 'Lines of Code', value: '100K+' },
