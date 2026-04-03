@@ -46,7 +46,7 @@ const projects: Project[] = [
     id: 'field',
     name: 'DHS Field App',
     description: 'Mobile-first PWA for field survey and estimate generation. Photo-required issue capture, NFPA 80 fire code compliance, multi-vendor pricing, AI classification, and Service Fusion integration.',
-    url: 'https://d19exoxxe6gwep.cloudfront.net',
+    url: 'https://djzddv813v650.cloudfront.net',
     github: 'https://github.com/Rgoodman2592/dhs-field-app',
     tech: ['React', 'TypeScript', 'PWA', 'AWS S3', 'Claude AI', 'IndexedDB'],
     icon: '📋',
