@@ -67,7 +67,7 @@ const privateProjects: Project[] = [
   },
 ];
 
-const PRIVATE_PASSWORD = 'dhs2026';
+const PRIVATE_PASSWORD = 'ryandgoodman25';
 
 function ProjectCard({ project }: { project: Project }) {
   return (
