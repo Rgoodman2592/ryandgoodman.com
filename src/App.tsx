@@ -36,6 +36,16 @@ const privateProjects: Project[] = [
     color: 'from-orange-500 to-red-600',
   },
   {
+    id: 'jw-marriott',
+    name: 'JW Marriott Door Survey',
+    description: 'Door & hardware survey tool built for the JW Marriott Washington DC. Per-leaf inspection with condition tracking for closers, panic hardware, hinges, and appearance. Offline-capable with photo capture, CSV export, and branded PDF reports.',
+    url: 'https://rgoodman2592.github.io/jw-marriott-door-survey',
+    github: 'https://github.com/Rgoodman2592/jw-marriott-door-survey',
+    tech: ['HTML', 'JavaScript', 'DynamoDB', 'Xano', 'LocalStorage'],
+    icon: '🏨',
+    color: 'from-amber-500 to-yellow-700',
+  },
+  {
     id: 'estimate',
     name: 'DHS Estimate Builder',
     description: 'AI-powered estimate builder with real-time multi-vendor pricing (IML, SecLock, CRL, Alarmax), fire code compliance, and Service Fusion integration.',
